@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-    int matrixSize = 4;
+    int matrixSize = 5;  
     cout << "=== MULTIPLYING MATRICES WITH THREADS ===" << endl;
     cout << "Matrix size: " << matrixSize << "x" << matrixSize << endl << endl;
 
