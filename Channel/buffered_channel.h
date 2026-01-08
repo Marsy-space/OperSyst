@@ -67,13 +67,13 @@ public:
     }
 
 private:
-    std::queue<T> queue_;              
-    size_t buffer_size_;               
-    bool closed_;                     
+    std::queue<T> queue_;
+    size_t buffer_size_;
+    bool closed_;
 
-    std::mutex mutex_;                 
-    std::condition_variable send_cv_;  
-    std::condition_variable recv_cv_;  
+    std::mutex mutex_;
+    std::condition_variable send_cv_;
+    std::condition_variable recv_cv_;
 };
 
 #endif // BUFFERED_CHANNEL_H
